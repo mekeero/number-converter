@@ -1,0 +1,86 @@
+#d2
+{
+  position: absolute;
+  top: auto;
+  right: 300px;
+  margin: 100px 0;
+  font-family: 'Inter', sans-serif;
+}
+h1
+{
+  text-align: center;
+  text-decoration: underline;
+  color: rgba(30, 144, 255, 0.75);
+  font-family: 'Inter', sans-serif;
+  text-shadow: 4px 2.5px rgba(255, 99, 50, 0.75);
+  font-size: 50px;
+}
+#d3
+{
+  position: absolute;
+  top: auto;
+  left: 100px;
+  margin: 50px 0;
+}
+table
+{
+  border-style: dashed;
+  background-color: aliceblue;
+  border-color: rgba(98, 145, 218, 255);
+  border-radius: 25px;
+}
+button
+{
+  border-radius: 12px;
+  padding: 10px 24px;
+  border-color: rgba(255, 99, 71, 0.75);
+  background-color: rgba(255, 99, 71, 0.75);
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  color: ivory;
+}
+input[type=text]
+{
+  padding: 12px 20px;
+  margin: 18px 0;
+  background-color: rgba(98, 145, 218, 0.75);
+  color: white;
+  border-radius: 12px;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  border-color: rgba(98, 145, 218, 0.5);
+  border-style: solid;
+}
+::placeholder
+{
+  color: white;
+  opacity: 1;
+}
+:-ms-input-placeholder
+{
+  color: white;
+}
+::-ms-input-placeholder
+{
+  color: white;
+}
+p
+{
+  font-size: 20px;
+  color: tomato;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-style: double;
+  text-decoration-color: tomato;
+}
+#d4
+{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(255, 0, 0, 0.05);
+  font-family: 'Inter', sans-serif;
+  padding: 10px;
+}
